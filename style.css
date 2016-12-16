@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'oscIconFont';
-  src:  url('fonts/oscIconFont.eot?u3lzsa');
-  src:  url('fonts/oscIconFont.eot?u3lzsa#iefix') format('embedded-opentype'),
-    url('fonts/oscIconFont.ttf?u3lzsa') format('truetype'),
-    url('fonts/oscIconFont.woff?u3lzsa') format('woff'),
-    url('fonts/oscIconFont.svg?u3lzsa#oscIconFont') format('svg');
+  src:  url('fonts/oscIconFont.eot?te7ktl');
+  src:  url('fonts/oscIconFont.eot?te7ktl#iefix') format('embedded-opentype'),
+    url('fonts/oscIconFont.ttf?te7ktl') format('truetype'),
+    url('fonts/oscIconFont.woff?te7ktl') format('woff'),
+    url('fonts/oscIconFont.svg?te7ktl#oscIconFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,16 +24,34 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ocs-icon:before {
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-menu:before {
+  content: "\e9be";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e900";
+}
+.icon-ocs:before {
   content: "\6f";
 }
-.icon-osc-icon-filled:before {
+.icon-osc-filled:before {
   content: "\73";
 }
-.icon-osc-icon-bold:before {
+.icon-osc-bold:before {
   content: "\4f";
 }
-.icon-osc-icon-bold-filled:before {
+.icon-osc-bold-filled:before {
   content: "\53";
 }
 .icon-osc-icon-inner:before {
