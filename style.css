@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'oscIconFont';
-  src:  url('fonts/oscIconFont.eot?te7ktl');
-  src:  url('fonts/oscIconFont.eot?te7ktl#iefix') format('embedded-opentype'),
-    url('fonts/oscIconFont.ttf?te7ktl') format('truetype'),
-    url('fonts/oscIconFont.woff?te7ktl') format('woff'),
-    url('fonts/oscIconFont.svg?te7ktl#oscIconFont') format('svg');
+  src:  url('fonts/oscIconFont.eot?dz46q4');
+  src:  url('fonts/oscIconFont.eot?dz46q4#iefix') format('embedded-opentype'),
+    url('fonts/oscIconFont.ttf?dz46q4') format('truetype'),
+    url('fonts/oscIconFont.woff?dz46q4') format('woff'),
+    url('fonts/oscIconFont.svg?dz46q4#oscIconFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-close:before {
+  content: "\ea0f";
+}
 .icon-github:before {
   content: "\eab0";
 }
@@ -39,9 +42,6 @@
 .icon-menu:before {
   content: "\e9be";
 }
-.icon-keyboard_arrow_down:before {
-  content: "\e900";
-}
 .icon-ocs:before {
   content: "\6f";
 }
@@ -56,5 +56,8 @@
 }
 .icon-osc-icon-inner:before {
   content: "\63";
+}
+.icon-down:before {
+  content: "\e900";
 }
 
