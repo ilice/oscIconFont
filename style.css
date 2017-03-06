@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'oscIconFont';
-  src:  url('fonts/oscIconFont.eot?2iy27v');
-  src:  url('fonts/oscIconFont.eot?2iy27v#iefix') format('embedded-opentype'),
-    url('fonts/oscIconFont.ttf?2iy27v') format('truetype'),
-    url('fonts/oscIconFont.woff?2iy27v') format('woff'),
-    url('fonts/oscIconFont.svg?2iy27v#oscIconFont') format('svg');
+  src:  url('fonts/oscIconFont.eot?cttr5q');
+  src:  url('fonts/oscIconFont.eot?cttr5q#iefix') format('embedded-opentype'),
+    url('fonts/oscIconFont.ttf?cttr5q') format('truetype'),
+    url('fonts/oscIconFont.woff?cttr5q') format('woff'),
+    url('fonts/oscIconFont.svg?cttr5q#oscIconFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,15 +24,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-search:before {
-  content: "\e902";
-}
-.icon-home:before {
-  content: "\e903";
-}
-.icon-search2:before {
-  content: "\e986";
-}
 .icon-ocs:before {
   content: "\6f";
 }
@@ -47,38 +38,5 @@
 }
 .icon-osc-icon-inner:before {
   content: "\63";
-}
-.icon-down:before {
-  content: "\e900";
-}
-.icon-whatsapp:before {
-  content: "\ea93";
-}
-.icon-file-pdf:before {
-  content: "\eadf";
-}
-.icon-envelope:before {
-  content: "\e901";
-}
-.icon-whatsapp2:before {
-  content: "\ea94";
-}
-.icon-close:before {
-  content: "\ea0f";
-}
-.icon-github:before {
-  content: "\eab0";
-}
-.icon-twitter:before {
-  content: "\ea96";
-}
-.icon-facebook:before {
-  content: "\ea90";
-}
-.icon-facebook2:before {
-  content: "\ea91";
-}
-.icon-menu:before {
-  content: "\e9be";
 }
 
